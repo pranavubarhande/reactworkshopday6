@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Simpleuseeffect from './components/Simpleuseeffect';
+import Simpleparameterue from './components/Simpleparameterue';
+import Getrequest from './components/Getrequest';
+import Postrequest from './components/Postrequest';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Simpleuseeffect></Simpleuseeffect> */}
+
+      {/* <Simpleparameterue></Simpleparameterue> */}
+
+      {/* <Getrequest></Getrequest> */}
+
+      <Postrequest></Postrequest>
     </div>
   );
 }
